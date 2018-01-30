@@ -182,17 +182,17 @@
 		65EE5A96202018F100F561E7 /* BtnAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				65EE5A97202018F100F561E7 /* DFBlingParams.h */,
-				65EE5A98202018F100F561E7 /* UIView+BaseAnimationGather.h */,
 				65EE5A99202018F100F561E7 /* BtnAnimation.h */,
+				65EE5A9E202018F100F561E7 /* BtnAnimation.m */,
 				65EE5A9A202018F100F561E7 /* DFBlingLayer.h */,
+				65EE5AA1202018F100F561E7 /* DFBlingLayer.m */,
+				65EE5A97202018F100F561E7 /* DFBlingParams.h */,
+				65EE5A9D202018F100F561E7 /* DFBlingParams.m */,
+				65EE5A9F202018F100F561E7 /* UIView+BaseAnimationGather.m */,
+				65EE5A98202018F100F561E7 /* UIView+BaseAnimationGather.h */,
 				65EE5A9B202018F100F561E7 /* like.png */,
 				65EE5A9C202018F100F561E7 /* heart.png */,
-				65EE5A9D202018F100F561E7 /* DFBlingParams.m */,
-				65EE5A9E202018F100F561E7 /* BtnAnimation.m */,
-				65EE5A9F202018F100F561E7 /* UIView+BaseAnimationGather.m */,
 				65EE5AA0202018F100F561E7 /* star.png */,
-				65EE5AA1202018F100F561E7 /* DFBlingLayer.m */,
 				65EE5AA2202018F100F561E7 /* smile.png */,
 			);
 			path = BtnAnimation;
