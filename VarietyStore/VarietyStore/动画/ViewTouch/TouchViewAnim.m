@@ -51,6 +51,7 @@
     if (layer.transform.m11 < max) {
         
         [layer setTransform:CATransform3DScale(layer.transform, 1.1, 1.1, 1.0)];
+        layer.opacity -= 0.05;
         //_cmd 获取当前方法的名字
         [self performSelector:_cmd withObject:layer afterDelay:0.03];
         
