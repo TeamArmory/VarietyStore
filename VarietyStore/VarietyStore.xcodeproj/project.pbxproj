@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650F63792021BC2E0075D8FC /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F63782021BC2E0075D8FC /* AlertViewController.m */; };
+		6596736B2021627E008A0F2B /* CAReplicatorLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6596736A2021627E008A0F2B /* CAReplicatorLayerController.m */; };
+		659673702021A819008A0F2B /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6596736F2021A819008A0F2B /* SuperViewController.m */; };
+		659673732021A827008A0F2B /* SuperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659673722021A827008A0F2B /* SuperTableViewController.m */; };
+		659673762021A830008A0F2B /* SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659673752021A830008A0F2B /* SuperView.m */; };
+		659673792021A8A2008A0F2B /* IntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659673782021A8A2008A0F2B /* IntroduceController.m */; };
+		6596737C2021A994008A0F2B /* SuperTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6596737B2021A994008A0F2B /* SuperTableViewModel.m */; };
 		65EE5A602020189300F561E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE5A5F2020189300F561E7 /* AppDelegate.m */; };
 		65EE5A632020189300F561E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE5A622020189300F561E7 /* ViewController.m */; };
 		65EE5A662020189300F561E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EE5A642020189300F561E7 /* Main.storyboard */; };
@@ -45,6 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		650F63772021BC2E0075D8FC /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		650F63782021BC2E0075D8FC /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		659673692021627E008A0F2B /* CAReplicatorLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerController.h; sourceTree = "<group>"; };
+		6596736A2021627E008A0F2B /* CAReplicatorLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerController.m; sourceTree = "<group>"; };
+		6596736E2021A819008A0F2B /* SuperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		6596736F2021A819008A0F2B /* SuperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		659673712021A827008A0F2B /* SuperTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperTableViewController.h; sourceTree = "<group>"; };
+		659673722021A827008A0F2B /* SuperTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperTableViewController.m; sourceTree = "<group>"; };
+		659673742021A830008A0F2B /* SuperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperView.h; sourceTree = "<group>"; };
+		659673752021A830008A0F2B /* SuperView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperView.m; sourceTree = "<group>"; };
+		659673772021A8A2008A0F2B /* IntroduceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroduceController.h; sourceTree = "<group>"; };
+		659673782021A8A2008A0F2B /* IntroduceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroduceController.m; sourceTree = "<group>"; };
+		6596737A2021A994008A0F2B /* SuperTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperTableViewModel.h; sourceTree = "<group>"; };
+		6596737B2021A994008A0F2B /* SuperTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperTableViewModel.m; sourceTree = "<group>"; };
 		65EE5A5B2020189300F561E7 /* VarietyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VarietyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EE5A5E2020189300F561E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65EE5A5F2020189300F561E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +125,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6596736820216236008A0F2B /* CAReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				659673692021627E008A0F2B /* CAReplicatorLayerController.h */,
+				6596736A2021627E008A0F2B /* CAReplicatorLayerController.m */,
+			);
+			path = CAReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		6596736C2021A7CD008A0F2B /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				659673772021A8A2008A0F2B /* IntroduceController.h */,
+				659673782021A8A2008A0F2B /* IntroduceController.m */,
+				650F63772021BC2E0075D8FC /* AlertViewController.h */,
+				650F63782021BC2E0075D8FC /* AlertViewController.m */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		6596736D2021A7ED008A0F2B /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				6596736E2021A819008A0F2B /* SuperViewController.h */,
+				6596736F2021A819008A0F2B /* SuperViewController.m */,
+				659673712021A827008A0F2B /* SuperTableViewController.h */,
+				659673722021A827008A0F2B /* SuperTableViewController.m */,
+				659673742021A830008A0F2B /* SuperView.h */,
+				659673752021A830008A0F2B /* SuperView.m */,
+				6596737A2021A994008A0F2B /* SuperTableViewModel.h */,
+				6596737B2021A994008A0F2B /* SuperTableViewModel.m */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
 		65EE5A522020189300F561E7 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +183,8 @@
 		65EE5A5D2020189300F561E7 /* VarietyStore */ = {
 			isa = PBXGroup;
 			children = (
+				6596736D2021A7ED008A0F2B /* SuperClass */,
+				6596736C2021A7CD008A0F2B /* Introduce */,
 				65EE5A90202018DD00F561E7 /* 动画 */,
 				65EE5A5E2020189300F561E7 /* AppDelegate.h */,
 				65EE5A5F2020189300F561E7 /* AppDelegate.m */,
@@ -162,6 +220,7 @@
 		65EE5A90202018DD00F561E7 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				6596736820216236008A0F2B /* CAReplicatorLayer */,
 				65EE5A96202018F100F561E7 /* BtnAnimation */,
 				65EE5A91202018F100F561E7 /* ViewTouch */,
 			);
@@ -335,13 +394,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659673702021A819008A0F2B /* SuperViewController.m in Sources */,
 				65EE5A632020189300F561E7 /* ViewController.m in Sources */,
+				659673762021A830008A0F2B /* SuperView.m in Sources */,
 				65EE5AAE202018F100F561E7 /* DFBlingLayer.m in Sources */,
 				65EE5AAC202018F100F561E7 /* UIView+BaseAnimationGather.m in Sources */,
 				65EE5AAB202018F100F561E7 /* BtnAnimation.m in Sources */,
+				6596736B2021627E008A0F2B /* CAReplicatorLayerController.m in Sources */,
+				650F63792021BC2E0075D8FC /* AlertViewController.m in Sources */,
 				65EE5A6E2020189300F561E7 /* main.m in Sources */,
+				659673732021A827008A0F2B /* SuperTableViewController.m in Sources */,
 				65EE5AAA202018F100F561E7 /* DFBlingParams.m in Sources */,
 				65EE5A602020189300F561E7 /* AppDelegate.m in Sources */,
+				659673792021A8A2008A0F2B /* IntroduceController.m in Sources */,
+				6596737C2021A994008A0F2B /* SuperTableViewModel.m in Sources */,
 				65EE5AA7202018F100F561E7 /* TouchViewAnim.m in Sources */,
 				65EE5AA6202018F100F561E7 /* TouchAnimViewController.m in Sources */,
 			);
@@ -509,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3Z423E898;
 				INFOPLIST_FILE = VarietyStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DF.VarietyStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3Z423E898;
 				INFOPLIST_FILE = VarietyStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DF.VarietyStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";

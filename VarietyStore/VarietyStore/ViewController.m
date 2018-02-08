@@ -10,6 +10,7 @@
 
 #import "BtnAnimation.h"
 #import "TouchAnimViewController.h"
+#import "CAReplicatorLayerController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.mutableArr = [NSMutableArray arrayWithObjects:@"Btn动画",@"TouchViewAnim",@"3",@"4",@"5",@"6",@"7",@"8",@"9", nil];
+    self.mutableArr = [NSMutableArray arrayWithObjects:@"Btn动画",@"TouchViewAnim",@"CAReplicatorLayer",@"4",@"5",@"6",@"7",@"8",@"9", nil];
     
     UITableView *tableV = [[UITableView alloc] initWithFrame:self.view.frame style:(UITableViewStylePlain)];
     [self.view addSubview:tableV];
@@ -73,6 +74,12 @@
     
     TouchAnimViewController *touchVC = [TouchAnimViewController new];
     [self.navigationController pushViewController:touchVC animated:YES];
+}
+
+- (void)CAReplicatorLayer {
+    
+    CAReplicatorLayerController *replicator = [CAReplicatorLayerController new];
+    [self.navigationController pushViewController:replicator animated:YES];
 }
 
 

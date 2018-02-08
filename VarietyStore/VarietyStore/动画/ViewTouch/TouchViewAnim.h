@@ -6,8 +6,8 @@
 //  Copyright © 2018年 ongfei. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SuperView.h"
 
-@interface TouchViewAnim : UIView
+@interface TouchViewAnim : SuperView
 
 @end

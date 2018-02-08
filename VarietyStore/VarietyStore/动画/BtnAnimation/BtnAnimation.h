@@ -6,8 +6,8 @@
 //  Copyright © 2018年 ongfei. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SuperViewController.h"
 
-@interface BtnAnimation : UIViewController
+@interface BtnAnimation : SuperViewController
 
 @end
